@@ -11,6 +11,8 @@
 		4AA37DD82A446A6500427C3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA37DD72A446A6500427C3D /* ContentView.swift */; };
 		4AA37DDA2A446A6600427C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA37DD92A446A6600427C3D /* Assets.xcassets */; };
 		4AA37DDE2A446A6600427C3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AA37DDD2A446A6600427C3D /* Preview Assets.xcassets */; };
+		4AA37DE62A446BD300427C3D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA37DE52A446BD300427C3D /* Home.swift */; };
+		4AA37DE82A44706400427C3D /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA37DE72A44706400427C3D /* TransparentBlurView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4AA37DD92A446A6600427C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AA37DDB2A446A6600427C3D /* TransparentBlurEffectSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TransparentBlurEffectSwiftUI.entitlements; sourceTree = "<group>"; };
 		4AA37DDD2A446A6600427C3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AA37DE52A446BD300427C3D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4AA37DE72A44706400427C3D /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,7 @@
 		4AA37DD42A446A6500427C3D /* TransparentBlurEffectSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				4AA37DE42A446BC900427C3D /* View */,
 				4AA37DD52A446A6500427C3D /* TransparentBlurEffectSwiftUIApp.swift */,
 				4AA37DD72A446A6500427C3D /* ContentView.swift */,
 				4AA37DD92A446A6600427C3D /* Assets.xcassets */,
@@ -67,6 +72,15 @@
 				4AA37DDD2A446A6600427C3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AA37DE42A446BC900427C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AA37DE52A446BD300427C3D /* Home.swift */,
+				4AA37DE72A44706400427C3D /* TransparentBlurView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AA37DD82A446A6500427C3D /* ContentView.swift in Sources */,
+				4AA37DE62A446BD300427C3D /* Home.swift in Sources */,
+				4AA37DE82A44706400427C3D /* TransparentBlurView.swift in Sources */,
 				4AA37DD62A446A6500427C3D /* TransparentBlurEffectSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
